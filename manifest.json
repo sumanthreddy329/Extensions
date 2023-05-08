@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Tuesday URL Opener",
+  "version": "1.0",
+  "description": "Opens a URL every Tuesday at 01:30 in a new tab.",
+  "permissions": [
+    "tabs",
+    "alarms"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Tuesday URL Opener"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "alarms"
+  ]
+}
